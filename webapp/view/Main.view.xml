@@ -1,0 +1,10 @@
+<mvc:View controllerName="nl.qualiture.spc.sandbox.sandboxchart.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns:cc="nl.qualiture.spc.sandbox.sandboxchart.custom"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <cc:D3Chart id="d3chart" width="800" height="600" data="{Chart>/results}" />
+        </content>
+    </Page>
+</mvc:View>
